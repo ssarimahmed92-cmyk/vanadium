@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Car Drawing</title>
+  <style>
+    body {
+      background: #d0f0f8;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .car {
+      position: relative;
+      width: 200px;
+      height: 60px;
+      background: red;
+      border-radius: 10px;
+    }
+
+    .top {
+      position: absolute;
+      top: -40px;
+      left: 30px;
+      width: 140px;
+      height: 40px;
+      background: #e60000;
+      border-radius: 15px 15px 0 0;
+    }
+
+    .window {
+      position: absolute;
+      top: 5px;
+      width: 40px;
+      height: 30px;
+      background: lightblue;
+      border-radius: 5px;
+    }
+
+    .window.left {
+      left: 10px;
+    }
+
+    .window.right {
+      right: 10px;
+    }
+
+    .wheel {
+      position: absolute;
+      bottom: -20px;
+      width: 40px;
+      height: 40px;
+      background: black;
+      border-radius: 50%;
+    }
+
+    .wheel.left {
+      left: 20px;
+    }
+
+    .wheel.right {
+      right: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="car">
+    <div class="top">
+      <div class="window left"></div>
+      <div class="window right"></div>
+    </div>
+    <div class="wheel left"></div>
+    <div class="wheel right"></div>
+  </div>
+
+</body>
+</html>

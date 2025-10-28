@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <div style="display: flex; justify-content: center;">
+    <title>
+        login page
+    </title>
+    <form onsubmit="showGreeting(event)">
+    <h1>
+        LOGIN FORM
+    </h1>
+
+
+        <label for="username">Email</label>
+
+        <input type="text" id="password" name="password" required><br><br>
+
+
+        <label for="password">Password</label>
+
+        <input type="password" id="password" name="password" required><br><br>
+
+    <button type="submit">Login</button>
+    </form>
+    <h3 id="greeting" style="margin-top: 20px;"></h3>
+    </div>
+     <script>
+    function showGreeting(event) {
+      event.preventDefault(); // Form submit hone se roke
+
+      const username = document.getElementById("username").value;
+      document.getElementById("greeting").innerText = "Hello " + username + "!";
+    }
+  </script>
+</head>

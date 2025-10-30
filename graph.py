@@ -6,5 +6,4 @@ y = [sin(-180), sin(-150), sin(-120), sin(-90), sin(-60), sin(-30), sin(0),
      sin(30), sin(60), sin(90), sin(120), sin(150), sin(180)]
 
 plt.plot(x, y, color="red")
-#plt.scatter(x, y, color="blue")
 plt.show()

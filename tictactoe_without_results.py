@@ -3,7 +3,6 @@ screen = t.Screen()
 t.shape("turtle")
 t.speed(50)
 t.setup(width=1200, height=800)
-
 def box():
     t.forward(300)
     t.left(90)
@@ -98,7 +97,4 @@ screen.onkey(rigth, "Right")
 screen.onkey(left, "Left")
 screen.onkey(zero, "0")
 screen.onkey(cross, "x")
-
-
-
 t.mainloop()

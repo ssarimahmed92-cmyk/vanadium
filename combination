@@ -1,0 +1,11 @@
+from permutation_combination import n, r 
+from factorial import fact
+def com():
+        global a
+        global b
+        a = fact(n)
+        b = fact(n-r)
+        c = fact(r)
+        nCr = a/(c*b)
+        return nCr
+    

@@ -16,3 +16,4 @@ elif (player == "rock" and computer == "scissor")\
     print("you win")
 else:
     print(f"computer was {computer}")
+    print("Computer wins")

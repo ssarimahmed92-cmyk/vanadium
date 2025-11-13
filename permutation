@@ -1,7 +1,0 @@
-from permutation_combination import n, r 
-from factorial import fact
-def per():
-        a = fact(n)
-        b = fact(n-r)
-        nPr = a / b
-        return nPr
